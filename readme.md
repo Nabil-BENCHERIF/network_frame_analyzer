@@ -51,7 +51,7 @@ nabil-bencherif-network_frame_analyzer/
    ```
 3.Refer to Howto.txt for detailed instructions on input format and usage.
 
-🧠 Educational Purpose
+## 🧠 Educational Purpose
 This project is intended for learning and educational use. It's a great starting point for those exploring:
 
 Network protocol structure
@@ -60,10 +60,10 @@ Frame-level packet analysis
 
 Python-based protocol parsing
 
-📄 License
+##📄 License
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it with proper attribution.
 
-🙋‍♂️ Author
+##🙋‍♂️ Author
 Nabil Bencherif
 For any inquiries or collaboration requests, feel free to reach out via GitHub or email.
