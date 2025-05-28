@@ -1,0 +1,40 @@
+>> ETHERNET
+	> DESTINATION_ADDRESS: f2 33 11 f2 81 64
+	> SOURCE_ADDRESS: 60 f2 62 9b c8 be
+	> TYPE: 0x0800
+>> DoDInternet
+	> VERSION-IHL: 0x45
+		> Version: 4
+		> Header Length: 20 bytes (5)
+	> TOS: 0x00
+	> TOTAL_LENGTH: 60
+	> IDENTIFICATION: 0x94d1
+	> FLAGS-FRAGMENT_OFFSET: 0x4000
+		> Reserved bit: 0
+		> Don't fragment: 1
+		> More fragments: 0
+		> Fragment offset: 0000000000000
+	> TTL: 64
+	> PROTOCOL: 0x06
+	> HEADER_CHECKSUM: 0xa600
+	> SOURCE_ADDRESS: 172.20.10.5
+	> DESTINATION_ADDRESS: 52.149.21.60
+	> OPTIONS: No options
+>> TCP
+	> SOURCE_PORT: 60424
+	> DESTINATION_PORT: 443
+	> SEQUENCE_NUMBER: 2605071610
+	> ACKNOWLEDGMENT_NUMBER: 0
+	> THL-RESERVED-FLAGS: 0xa002
+		> Header Length: 40 bytes (10)
+		> Reserved: 000000
+		> Urgent: 0
+		> Acknowledgment: 0
+		> Push: 0
+		> Reset: 0
+		> Syn: 1
+		> Fin: 0
+	> WINDOW: 64240
+	> CHECKSUM: 0x0019
+	> URGENT_POINTER: 0
+	> OPTIONS: 02 04 05 b4 04 02 08 0a 8d 9b 6f 38 00 00 00 00 01 03 03 07

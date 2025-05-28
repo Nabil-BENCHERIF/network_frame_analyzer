@@ -1,0 +1,4 @@
+﻿Comment installer et utiliser notre Analyseur
+
+
+Le langage de programmation étant Python, le code fourni ne nécessite pas d’être compilé avant d’être exécuté. Après avoir renseigné les noms des fichiers d'entrées et de sorties dans le fichier main.py, il suffit d’exécuter ce dernier avec la commande python3.7 main.py ou en utilisant un IDE dédié.
