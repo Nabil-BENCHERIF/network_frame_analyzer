@@ -46,8 +46,9 @@ nabil-bencherif-network_frame_analyzer/
    git clone https://github.com/your-username/nabil-bencherif-network_frame_analyzer.git
    cd nabil-bencherif-network_frame_analyzer/src
 2.Run the analyzer:
-  python main.py
-  
+   ```bash
+   python main.py
+   ```
 3.Refer to Howto.txt for detailed instructions on input format and usage.
 
 🧠 Educational Purpose
