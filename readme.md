@@ -1,8 +1,3 @@
-Bien sûr ! Voici le contenu complet du `README.md` prêt à être **copié-collé** directement dans ton dépôt :
-
----
-
-```markdown
 # Network Frame Analyzer
 
 **Author:** Nabil Bencherif  
@@ -29,22 +24,18 @@ It provides modular protocol analyzers and includes several frame samples for ha
 
 ## 🗂️ Project Structure
 
-
-
-nabil-bencherif-network\_frame\_analyzer/
-├── readme.md            # Project documentation
-├── LICENSE.txt          # MIT License
+nabil-bencherif-network_frame_analyzer/
+├── readme.md # Project documentation
+├── LICENSE.txt # MIT License
 └── src/
-├── main.py          # Main entry point
-├── utils.py         # Helper functions
-├── Howto.txt        # Usage guide
-├── Readme.txt       # Additional notes
-├── output.txt       # Output from analysis
-├── PROTOCOLS/       # Individual protocol analyzers
-├── Trames/          # Sample network frames
-└── .idea/           # IDE configuration (can be ignored)
-
-````
+├── main.py # Main entry point
+├── utils.py # Helper functions
+├── Howto.txt # Usage guide
+├── Readme.txt # Additional notes
+├── output.txt # Output from analysis
+├── PROTOCOLS/ # Individual protocol analyzers
+├── Trames/ # Sample network frames
+└── .idea/ # IDE configuration (can be ignored)
 
 ---
 
@@ -54,39 +45,24 @@ nabil-bencherif-network\_frame\_analyzer/
    ```bash
    git clone https://github.com/your-username/nabil-bencherif-network_frame_analyzer.git
    cd nabil-bencherif-network_frame_analyzer/src
-````
+2.Run the analyzer:
+  python main.py
+  
+3.Refer to Howto.txt for detailed instructions on input format and usage.
 
-2. Run the analyzer:
-
-   ```bash
-   python main.py
-   ```
-
-3. Refer to `Howto.txt` for detailed instructions on input format and usage.
-
----
-
-## 🧠 Educational Purpose
-
+🧠 Educational Purpose
 This project is intended for learning and educational use. It's a great starting point for those exploring:
 
-* Network protocol structure
-* Frame-level packet analysis
-* Python-based protocol parsing
+Network protocol structure
 
----
+Frame-level packet analysis
 
-## 📄 License
+Python-based protocol parsing
 
-This project is licensed under the [MIT License](../LICENSE.txt).
+📄 License
+This project is licensed under the MIT License.
 You are free to use, modify, and distribute it with proper attribution.
 
----
-
-## 🙋‍♂️ Author
-
+🙋‍♂️ Author
 Nabil Bencherif
 For any inquiries or collaboration requests, feel free to reach out via GitHub or email.
-
-```
-
