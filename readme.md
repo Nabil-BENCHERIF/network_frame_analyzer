@@ -30,8 +30,6 @@ nabil-bencherif-network_frame_analyzer/
 └── src/
 ├── main.py # Main entry point
 ├── utils.py # Helper functions
-├── Howto.txt # Usage guide
-├── Readme.txt # Additional notes
 ├── output.txt # Output from analysis
 ├── PROTOCOLS/ # Individual protocol analyzers
 ├── Trames/ # Sample network frames
@@ -49,7 +47,7 @@ nabil-bencherif-network_frame_analyzer/
    ```bash
    python main.py
    ```
-3. Refer to Howto.txt for detailed instructions on input format and usage.
+
 
 
 ## 🧠 Educational Purpose
