@@ -29,7 +29,7 @@ It provides modular protocol analyzers and includes several frame samples for ha
 
 ## 🗂️ Project Structure
 
-```
+
 
 nabil-bencherif-network\_frame\_analyzer/
 ├── readme.md            # Project documentation
