@@ -1,7 +1,7 @@
 # Network Frame Analyzer
 
 **Author:** Nabil Bencherif  
-**Project Type:** Academic / Personal  
+**Project Type:** Personal  
 **License:** MIT License
 
 ## 📘 Overview
