@@ -23,7 +23,7 @@ It provides modular protocol analyzers and includes several frame samples for ha
 ---
 
 ## 🗂️ Project Structure
-
+```
 nabil-bencherif-network_frame_analyzer/
 ├── readme.md # Project documentation
 ├── LICENSE.txt # MIT License
@@ -36,7 +36,7 @@ nabil-bencherif-network_frame_analyzer/
 ├── PROTOCOLS/ # Individual protocol analyzers
 ├── Trames/ # Sample network frames
 └── .idea/ # IDE configuration (can be ignored)
-
+```
 ---
 
 ## ▶️ Usage
