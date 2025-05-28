@@ -45,30 +45,34 @@ nabil-bencherif-network_frame_analyzer/
    ```bash
    git clone https://github.com/your-username/nabil-bencherif-network_frame_analyzer.git
    cd nabil-bencherif-network_frame_analyzer/src
-2.Run the analyzer:
+2. Run the analyzer:
    ```bash
    python main.py
    ```
-3.Refer to Howto.txt for detailed instructions on input format and usage.
----
+3. Refer to Howto.txt for detailed instructions on input format and usage.
 
 
 ## 🧠 Educational Purpose
+
 This project is intended for learning and educational use. It's a great starting point for those exploring:
 
-Network protocol structure
+- Network protocol structure
+- Frame-level packet analysis
+- Python-based protocol parsing
 
-Frame-level packet analysis
-
-Python-based protocol parsing
 ---
-##📄 License
 
-This project is licensed under the MIT License.
+## 📄 License
+
+This project is licensed under the MIT License.  
 You are free to use, modify, and distribute it with proper attribution.
----
-##🙋‍♂️ Author
 
-Nabil Bencherif
-For any inquiries or collaboration requests, feel free to reach out via GitHub or email.
 ---
+
+## 🙋‍♂️ Author
+
+Nabil Bencherif  
+For any inquiries or collaboration requests, feel free to reach out via GitHub or email.
+
+---
+
