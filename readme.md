@@ -1,23 +1,92 @@
-Comment installer et utiliser notre Analyseur
+Bien sûr ! Voici le contenu complet du `README.md` prêt à être **copié-collé** directement dans ton dépôt :
 
+---
 
-Le langage de programmation étant Python, le code fourni ne nécessite pas d’être compilé avant d’être exécuté. Après avoir renseigné les noms des fichiers d'entrées et de sorties dans le fichier main.py, il suffit d’exécuter ce dernier avec la commande python3.7 main.py ou en utilisant un IDE dédié.
+```markdown
+# Network Frame Analyzer
 
+**Author:** Nabil Bencherif  
+**Project Type:** Academic / Personal  
+**License:** MIT License
 
+## 📘 Overview
 
+The Network Frame Analyzer is a Python-based tool designed for the **analysis and interpretation of network protocol frames**. This project was developed as part of an academic exploration into networking concepts and is aimed at understanding the structure and content of various protocols such as TCP, ARP, ICMP, HTTP, and more.
 
-Description du code du projet
+It provides modular protocol analyzers and includes several frame samples for hands-on experimentation and testing.
 
+---
 
-Le langage de programmation requis pour l’utilisation de l’analyseur est Python dans sa version Python 3.7. L’exécutable est le fichier main.py présent dans le dossier principal de l’archive.
-Pour exécuter le programme, il suffit de renseigner le nom du fichier contenant la trame et le nom du fichier de sortie (le résultat de l’analyse). 
+## 🧩 Features
 
+- 📦 Modular analyzers for:
+  - ARP, RARP, TCP, ICMP, HTTP, Ethernet, DoD Internet protocols, etc.
+- 📄 Sample frame files for testing and educational purposes
+- 🧪 Text-based input/output for frame simulation and analysis
+- 🔧 Utility functions for protocol parsing
 
-L’architecture globale du code est composé de:
--Un répertoire Trames contenant au format .txt, les trames à analyser ;
--Un répertoire Protocols contenant: 
--Un fichier de configuration par protocole analysable(ARP, IP, Ethernet, ICMP, TCP, HTTP);
--Un fichier analyzer.py contenant un code plus ou moins générique permettant l’analyse de tous les protocoles analysables;
--Un fichier Transformers.py qui contient les fonctions de transformations des octets lus;
--Le fichier exécutable main.py;
--Un fichier utils.py contenant des fonctions les fonctions de lecture de trames et d’écriture de l’analyse;
+---
+
+## 🗂️ Project Structure
+
+```
+
+nabil-bencherif-network\_frame\_analyzer/
+├── readme.md            # Project documentation
+├── LICENSE.txt          # MIT License
+└── src/
+├── main.py          # Main entry point
+├── utils.py         # Helper functions
+├── Howto.txt        # Usage guide
+├── Readme.txt       # Additional notes
+├── output.txt       # Output from analysis
+├── PROTOCOLS/       # Individual protocol analyzers
+├── Trames/          # Sample network frames
+└── .idea/           # IDE configuration (can be ignored)
+
+````
+
+---
+
+## ▶️ Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/nabil-bencherif-network_frame_analyzer.git
+   cd nabil-bencherif-network_frame_analyzer/src
+````
+
+2. Run the analyzer:
+
+   ```bash
+   python main.py
+   ```
+
+3. Refer to `Howto.txt` for detailed instructions on input format and usage.
+
+---
+
+## 🧠 Educational Purpose
+
+This project is intended for learning and educational use. It's a great starting point for those exploring:
+
+* Network protocol structure
+* Frame-level packet analysis
+* Python-based protocol parsing
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](../LICENSE.txt).
+You are free to use, modify, and distribute it with proper attribution.
+
+---
+
+## 🙋‍♂️ Author
+
+Nabil Bencherif
+For any inquiries or collaboration requests, feel free to reach out via GitHub or email.
+
+```
+
